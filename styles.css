@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap');
+
+body {
+    background-color: #31394c;
+    color: #fff;
+}
+
+h1 {
+    font-size: 48px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    text-align: center;
+    line-height: 59px;
+    padding: 0 64px;
+    margin: 0;
+}
+
+.stopwatch {
+    margin-top: 8rem;
+    display: grid;
+    justify-items: center;
+    grid-row-gap: 25px;
+    width: 100%;
+    padding-top: 25px;
+}
+
+.gold {
+    font-weight: 900;
+    color: #f2c94c;
+    text-shadow: 0 0 0px #fff, 0 0 0px #f2c94c;
+}
+
+.time {
+    font-family: sans-serif, monospace;
+    font-weight: 300;
+    font-size: 48px;
+}
+
+.circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid;
+    width: 270px;
+    height: 270px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    font-family: sans-serif;
+}
+
+.controls {
+    display: flex;
+    justify-content: space-around;
+    width: 178px;
+}
+
+button {
+    background: transparent;
+    padding: 0;
+    border: none;
+    margin: 0;
+    font-size: 50px;
+    color: #fff;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+button:active {
+    transform: scale(.90);
+}
+
+button:hover {
+    color: #f2c94c;
+}
+
+.play {
+    display: block;
+}
+
+.pause {
+    display: none;
+}
